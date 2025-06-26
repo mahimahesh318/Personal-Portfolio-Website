@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mankali Mahesh Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="Images/logo1.png">
+</head>
+<body>
+
+  <!-- Header Here -->
+
+  <header id="nav-bar">
+   <div class="logo">
+    <img src="Images/logo1.png" alt="logo">
+   </div>
+   <div class="nav-links">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experiences">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+   </div>
+  </header>
+
+<!-- Hero Section Here -->
+<section id="hero-section">
+  <div class="my-image">
+   <img src="Images/Mahesh.png" alt="mahesh-image">
+  </div>
+  <div class="image-info">
+    <p class="small">Hello, I'm</p>
+    <h1 class="large">Mankali Mahesh</h1>
+    <p class="medium">Frontend Developer</p>
+    
+    <div class="info-buttons">
+      <button onclick="resume()" class="cv">Download CV</button>
+      <button onclick="window.location.href='mailto:mankalimahesh32@gmail.com'" class="contact-info">Contact Me</button>
+      <div class="social">
+        <img src="Images/github1-removebg-preview.png" onclick="github()" alt="github">
+        <img src="Images/linkedin-removebg-preview.png" onclick="linkedin()" alt="linkedin">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section Begins Here -->
+
+<section id="about">
+  <h2>Know More About Me</h2>
+ <div class="about-section">
+   <div class="about-me">
+    <img src="Images/Mahesh.png" alt="image" class="img-round">
+    <h3 class="my-name">Mankali Mahesh</h3>
+    <p class="my-details">Frontend Developer | Content Creator | Writer</p>
+    <div class="my-social-icons">
+      <img src="Images/github1-removebg-preview.png" onclick="github()" alt="github">
+        <img src="Images/linkedin-removebg-preview.png" onclick="linkedin()" alt="linkedin">
+        <img src="Images/email-removebg-preview.png" onclick="window.location.href='mailto:mankalimahesh32@gmail.com'" alt="email">
+        <img src="Images/website-removebg-preview.png" onclick="window.location.href='https://projectbetterlife.com'" alt="website">
+    </div>
+   </div>
+   <div class="education">
+   <h3 class="welcome">Hello Everyone!</h3>
+    <p class="welcome-info">My Name is Mankali Mahesh. I am a passionate and creative Frontend Developer with a strong eye for detail and a love for crafting engaging web experiences.</p>
+    <button class="read-more" onclick="linkedin()">Read More...</button>
+    <button class="read-more" onclick="window.location.href='https://projectbetterlife.com/about'">View Profile</button>
+   </div>
+ </div>
+
+</section>
+
+<!-- Experience Section Begins Here -->
+
+<section class="experience" id="experiences">
+<h2>Experience</h2>
+<div class="flex-row">
+  <div class="row">
+    <img src="Images/voc.png" alt="">
+    <p>VaultofCodes</p>
+    <p id="normal">[Web Developer]</p>
+  </div>
+  <div class="row new"> <br> <br> <br>
+    <img src="Images/TechSaksham.jpg" alt=""> <br> <br> <br>
+    <p>Techsakshyam</p>
+    <p id="normal">[Data Analyst]</p>
+  </div>
+  <div class="row">
+    <img src="Images/cognifyz_techonologies_logo.jpg" alt="">
+    <p>Cognifyz Technologies</p>
+    <p id="normal">[Frontend Developer]</p>
+  </div>
+  
+</div>
+</section>
+
+<!-- Projects Section  -->
+<section class="projects" id="projects">
+<h2>Projects</h2>
+<div class="pro-flex">
+  <div class="myvideo">
+   <video class="vid" width="500" height="300" controls >
+  <source src="Images/OneGo-One-Search-Best-Results-.webm" type="video/webm">
+  Your browser does not support the video tag.
+  </video>
+  </div>
+  <div class="">
+    <h3 style="display: inline; color: #FFDE21; font-family: sans-serif; font-size: 25px" class="head">OneGo – Smart Search & Notes Web App</h3>
+    <p class="spaace" style="line-height: 1.4;">OneGo is a modern, lightweight, and responsive web application that helps you search educational content (like videos and articles) and write personal notes in one place. Built with just HTML, CSS, and JavaScript — no frameworks, no backend, just clean and fast performance.</p>
+    <button class="git" onclick="github()">Github Link</button>
+  </div>
+</div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="last">
+    <h3>For More Details</h3> 
+    <button class="contact-last" onclick="window.location.href='mailto:mankalimahesh32@gmail.com'">Contact Me</button>
+  </div>
+</section>
+
+
+<script src="index.js"></script>
+</body>
+</html>

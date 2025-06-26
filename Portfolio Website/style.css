@@ -1,0 +1,361 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* Header Styling Here */
+
+img{
+  width: 5rem;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20vh;
+}
+
+.nav-links ul{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a{
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-links a:hover{
+  text-decoration-line: underline;
+  text-underline-offset: 0.9rem;
+  text-decoration-color: rgb(19, 11, 11);
+  color:red;
+}
+
+/* Hero Section styling */
+
+#hero-section{
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.my-image img{
+width: 15rem;
+}
+
+.image-info{
+  text-align: center;
+  line-height: 1.56;
+}
+
+.small{
+  font-size: 1rem;
+  color:grey;
+}
+
+.large{
+  font-size: 1.5rem;
+}
+
+.medium{
+  font-size: 1rem;
+  color:grey;
+  margin-bottom: 20px;
+}
+
+.cv{
+  padding: 8px;
+  border-radius: 18px;
+  border:1px solid black;
+  background-color: #fff;
+}
+
+.cv:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-info{
+  padding: 8px;
+  border-radius: 18px;
+  border:1px solid black;
+  background-color: #000;
+  color: #fff;
+}
+
+.contact-info:hover{
+  border:1px solid black;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.social img{
+  margin-top: 1rem;
+  /* margin-right: 0.5rem; */
+  width: 2rem;
+}
+
+.social img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+/* About Section Styling */
+
+#about{
+  height: 100vh;
+  background-color: #000;
+}
+.about-section{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 2rem;
+}
+
+h2{
+  text-align: center;
+  padding: 3rem;
+  color: #fff;
+}
+.about-me{
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid white;
+  border-radius: 18px;
+  background-color: #FFFAEC;
+}
+
+.education{
+  width: 20rem;
+  height: 20rem;
+  border: 3px solid white;
+  border-radius: 18px;
+  background-color: #FFF0DC;
+}
+
+.about-me-text{
+  text-align: center;
+  padding: 2px;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.welcome{
+  padding: 2rem;
+}
+
+.welcome-info{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 0.9rem;
+}
+
+.welcome-info::first-letter {
+  font-size: 200%;
+  font-weight: bold;
+  color: #000;
+}
+
+.read-more{
+  padding: 8px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 18px;
+  border-style: none;
+  margin-top: 30px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 2rem;
+}
+
+.read-more:hover{
+  background-color: hsl(0, 0%, 50%);
+  cursor: pointer;
+}
+
+.obj{
+  display: inline;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+  margin: 1rem;
+}
+
+.about-me img{
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.my-name{
+  text-align: center;
+  line-height: 1.56;
+}
+
+.about-me p{
+  text-align: center;
+  color: grey;
+  padding: 1rem;
+}
+
+.my-social-icons img{
+  margin: 0;
+  padding: 0;
+  width: 2.3rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.about-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.my-social-icons img:hover{
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+.img-round{
+border-radius: 50%;
+border: 1.5px solid black;
+}
+
+/* Experience Section Styling Begins Here */
+
+.experience{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.experience h2{
+  color: #000;
+}
+
+.flex-row{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 50px;
+}
+
+.row img{
+  width: 200px;
+}
+
+.row{
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  text-align: center;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+#normal{
+  font-weight: normal;
+}
+
+/* Projects Section Design */
+
+.projects{
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.pro-flex{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.myvideo{
+  margin-left: 100px;
+}
+
+.spaace{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 100px;
+}
+
+.git{
+  padding: 10px 20px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.git:hover{
+  border: 2px solid white;
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+}
+
+.head h3{
+  font-size: 100px !important;
+}
+
+
+/* Contact Section Design */
+
+.contact{
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.last{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.last h3{
+  font-size: 30px;
+}
+
+.contact-last{
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-last:hover{
+  background-color: #fff;
+  border: 2px solid black;
+  color: #000;
+  transition: 0.5s ease;
+}
